@@ -17,7 +17,7 @@ https://www.curseforge.com/minecraft/mc-mods/completeconfig
 https://fabricmc.net/use/installer/
 https://www.curseforge.com/minecraft/mc-mods/fabric-api
 
-All rights and credit reserved to original owner:
+All rights and credit reserved to original creator:
 ------------------------------------------------------
 https://www.curseforge.com/minecraft/texture-packs/cute-mob-models-resource-pack/files
 Especially to Emmie.
