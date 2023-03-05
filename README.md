@@ -63,7 +63,7 @@ Phantom - fully working
 Magma cube - cannot edit  
 Pillager - weird animations 
 Piglin brute - weird animations 
-Snow golem - borked 
+Snow golem - borked   
 Slime - cannot edit 
 Horse skeleton - fully working  
 Silver fish - borked  
