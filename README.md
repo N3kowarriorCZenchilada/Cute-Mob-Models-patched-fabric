@@ -9,15 +9,15 @@ FABRIC LOADER, FABRIC API
 
 Mob compability:
 --------------------------------------------------------
-fully working = animations and textures and model are working properly
+fully working = animations and textures and model are working properly //9
 
-Weird animations = model and textures are working
+Weird animations = model and textures are working //27
 
-borked = model or/and textures are completely broken
+borked = model or/and textures are completely broken //18
 
-cannot edit = file is corrupted or if changed breaks model/textures
+cannot edit = file is corrupted or if changed breaks model/textures //7
 
-not supported = Isn't supported by texture pack
+not supported = Isn't supported by texture pack //12
 
 >Cow - weird animations  
 >Sheep - weird animations  
