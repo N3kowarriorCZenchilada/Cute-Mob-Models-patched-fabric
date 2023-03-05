@@ -14,6 +14,7 @@ Sheep - weird animations
 Creeper - fully working
 Chicken - sometimes doesnt load texture
 Pig - weird animations
+Zombie - weird animations
 
 Links:
 --------------------------------------------------------
