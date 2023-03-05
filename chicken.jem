@@ -1,0 +1,294 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "chicken.jem",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "adult",
+					"invertAxis": "xy",
+					"translate": [0, 0, -4],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "a_body",
+							"invertAxis": "xy",
+							"translate": [0, 3, -4],
+							"boxes": [
+								{"coordinates": [-3, 10, -1.5, 6, 6, 3], "textureOffset": [0, 47]},
+								{"coordinates": [-3.5, 7, -2, 7, 3, 4], "textureOffset": [18, 46]}
+							],
+							"submodels": [
+								{
+									"id": "a_featherB",
+									"invertAxis": "xy",
+									"translate": [0, 5, 1.5],
+									"boxes": [
+										{"coordinates": [-0.5, 3, -1, 1, 5, 5], "textureOffset": [18, 53], "sizeAdd": -0.001}
+									]
+								},
+								{
+									"id": "a_head",
+									"invertAxis": "xy",
+									"translate": [0, 8, 0],
+									"boxes": [
+										{"coordinates": [-3.5, 8, -3, 7, 7, 6], "textureOffset": [0, 0]},
+										{"coordinates": [-4, 7.5, -3.5, 8, 7, 7], "textureOffset": [0, 13]},
+										{"coordinates": [-3.5, 15, -3, 7, 1, 6], "textureOffset": [0, 28]},
+										{"coordinates": [-4, 13.5, -3.5, 8, 4, 7], "textureOffset": [0, 35], "sizeAdd": 0.01},
+										{"coordinates": [-4, 13.5, -5.52, 8, 2, 2], "textureOffset": [30, 42], "sizeAdd": 0.01}
+									]
+								},
+								{
+									"id": "a_armL",
+									"invertAxis": "xy",
+									"translate": [-3, 7, 0],
+									"boxes": [
+										{"coordinates": [-2, 1, -1, 2, 8, 2], "textureOffset": [44, 0]}
+									]
+								},
+								{
+									"id": "a_featherL",
+									"invertAxis": "xy",
+									"translate": [-3.5, 7.5, 0],
+									"boxes": [
+										{"coordinates": [-0.5, 0.5, -2, 1, 8, 4], "textureOffset": [42, 10], "sizeAdd": 0.05}
+									]
+								},
+								{
+									"id": "a_armR",
+									"invertAxis": "xy",
+									"translate": [3, 7, 0],
+									"boxes": [
+										{"coordinates": [0, 1, -1, 2, 8, 2], "textureOffset": [36, 0]}
+									]
+								},
+								{
+									"id": "a_featherR",
+									"invertAxis": "xy",
+									"translate": [3.5, 7.5, 0],
+									"boxes": [
+										{"coordinates": [-0.5, 0.5, -2, 1, 8, 4], "textureOffset": [32, 10], "sizeAdd": 0.05}
+									]
+								}
+							]
+						},
+						{
+							"id": "a_legL",
+							"invertAxis": "xy",
+							"translate": [-1.5, 3, -4],
+							"boxes": [
+								{"coordinates": [-1.5, 1.2, -1.5, 3, 7, 3], "textureOffset": [52, 0], "sizeAdd": -0.2}
+							]
+						},
+						{
+							"id": "a_legR",
+							"invertAxis": "xy",
+							"translate": [1.5, 3, -4],
+							"boxes": [
+								{"coordinates": [-1.5, 1.2, -1.5, 3, 7, 3], "textureOffset": [52, 10], "sizeAdd": -0.2}
+							]
+						}
+					]
+				},
+				{
+					"id": "baby",
+					"invertAxis": "xy",
+					"translate": [0, 0, -4],
+					"rotate": [90, 0, 0],
+					"submodels": [
+						{
+							"id": "b_body",
+							"invertAxis": "xy",
+							"translate": [0, 8, -6],
+							"boxes": [
+								{"coordinates": [-5, 8, -1, 10, 10, 6], "textureOffset": [96, 38]}
+							],
+							"submodels": [
+								{
+									"id": "b_skirt",
+									"invertAxis": "xy",
+									"translate": [0, 0, 2],
+									"boxes": [
+										{"coordinates": [-6, 6, -4, 12, 4, 8], "textureOffset": [88, 54]},
+										{"coordinates": [-7, 0, -5, 14, 6, 10], "textureOffset": [80, 66]}
+									]
+								},
+								{
+									"id": "b_head",
+									"invertAxis": "xy",
+									"translate": [0, 10, 2],
+									"boxes": [
+										{"coordinates": [-7, 8, -6, 14, 14, 12], "textureOffset": [0, 74]},
+										{"coordinates": [-8, 7, -7, 16, 14, 14], "textureOffset": [0, 100]},
+										{"coordinates": [-7, 21, -6, 14, 2, 12], "textureOffset": [60, 114], "sizeAdd": 0.002}
+									]
+								},
+								{
+									"id": "b_featherB",
+									"invertAxis": "xy",
+									"translate": [-1, 3, 5],
+									"boxes": [
+										{"coordinates": [0, 2, -2, 2, 6, 8], "textureOffset": [104, 24], "sizeAdd": -0.001}
+									]
+								},
+								{
+									"id": "b_armR",
+									"invertAxis": "xy",
+									"translate": [5, 8, 2],
+									"rotate": [0, 0, 5],
+									"boxes": [
+										{"coordinates": [0.69725, -2.03044, -2, 4, 12, 4], "textureOffset": [64, 0]}
+									]
+								},
+								{
+									"id": "b_featherR",
+									"invertAxis": "xy",
+									"translate": [6, 9, 2],
+									"boxes": [
+										{"coordinates": [-1, -5, -4, 2, 14, 8], "textureOffset": [64, 16], "sizeAdd": 0.05}
+									]
+								},
+								{
+									"id": "b_armL",
+									"invertAxis": "xy",
+									"translate": [-5, 8, 2],
+									"rotate": [0, 0, -5],
+									"boxes": [
+										{"coordinates": [-4.69725, -2.03044, -2, 4, 12, 4], "textureOffset": [80, 0]}
+									]
+								},
+								{
+									"id": "b_featherL",
+									"invertAxis": "xy",
+									"translate": [-6, 9, 2],
+									"boxes": [
+										{"coordinates": [-1, -5, -4, 2, 14, 8], "textureOffset": [84, 16], "sizeAdd": 0.05}
+									]
+								}
+							]
+						},
+						{
+							"id": "b_legL",
+							"invertAxis": "xy",
+							"translate": [-3, 8, -4],
+							"boxes": [
+								{"coordinates": [-2, -4, -2, 4, 10, 4], "textureOffset": [112, 0]}
+							]
+						},
+						{
+							"id": "b_legR",
+							"invertAxis": "xy",
+							"translate": [3, 8, -4],
+							"boxes": [
+								{"coordinates": [-2, -4, -2, 4, 10, 4], "textureOffset": [96, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"adult.tz": "if(is_riding, -7, -4.4)",
+					"baby.tz": "if(is_riding, -7, -4)",
+					"adult.ty": "if(is_child, 100000, if(is_ridden, 2 , 4 ))",
+					"baby.ty": "if(is_child, if(is_ridden, 2 , 4 ), 100000)",
+					"b_skirt.rx": "if(is_ridden, -0.5 , 0 ) +if(is_riding, -1.3 , 0 )",
+					"a_body.rx": "if(is_ridden, 0.5 , 0 )",
+					"a_body.ry": "if(is_riding, 0 , if(is_ridden, 0 ,head.ry * 0.3))",
+					"b_body.rx": "a_body.rx",
+					"b_body.ry": "a_body.ry",
+					"a_head.rx": "if(is_ridden, -0.5 + head.rx , head.rx ) +(sin(time / 11) * 0.025)",
+					"a_head.ry": "clamp(if(is_ridden, head.ry ,if(is_riding, head.ry ,head.ry * 0.7)), -1 , 1)",
+					"a_head.rz": "head.rz",
+					"b_head.rx": "a_head.rx",
+					"b_head.ry": "a_head.ry",
+					"b_head.rz": "a_head.rz",
+					"a_featherB.rx": "if(is_ridden, -0.5 , 0 )",
+					"a_featherB.ry": "sin(limb_swing)*limb_speed*0.4 +(sin(time / 10) * 0.03)",
+					"b_featherB.rx": "a_featherB.rx",
+					"b_featherB.ry": "a_featherB.ry",
+					"a_armL.ty": "if(is_on_ground||is_riding, -7, 100000)",
+					"a_armR.ty": "a_armL.ty",
+					"b_armL.ty": "if(is_on_ground||is_riding, -8, 100000)",
+					"b_armR.ty": "b_armL.ty",
+					"a_featherL.ty": "if(is_on_ground||is_riding, 100000, -7.5)",
+					"a_featherR.ty": "a_featherL.ty",
+					"b_featherL.ty": "if(is_on_ground||is_riding, 100000, -9)",
+					"b_featherR.ty": "b_featherL.ty",
+					"a_armL.rx": "if(is_ridden, 0.75 ,right_leg.rx)",
+					"a_armR.rx": "if(is_ridden, 0.75 ,left_leg.rx)",
+					"b_armL.rx": "a_armL.rx",
+					"b_armR.rx": "a_armR.rx",
+					"a_armL.rz": "if(is_ridden, 0 ,if(is_riding, 0 ,left_wing.rz * 0.5) +(sin(time / 10) * 0.05)-0.07 )",
+					"a_armR.rz": "-a_armL.rz",
+					"b_armL.rz": "a_armL.rz",
+					"b_armR.rz": "a_armR.rz",
+					"a_featherL.rx": "if(is_ridden, -0.5 , 0 )",
+					"a_featherR.rx": "a_featherL.rx",
+					"b_featherL.rx": "a_featherL.rx",
+					"b_featherR.rx": "a_featherR.rx",
+					"a_featherL.ry": "if(is_ridden, -0.07 , 0 )",
+					"a_featherR.ry": "-a_featherL.rx",
+					"b_featherL.ry": "a_featherL.ry",
+					"b_featherR.ry": "a_featherR.ry",
+					"a_featherL.rz": "left_wing.rz *0.5 -0.4",
+					"a_featherR.rz": "-a_featherL.rz",
+					"b_featherL.rz": "a_featherL.rz",
+					"b_featherR.rz": "a_featherR.rz",
+					"a_legL.rx": "if(is_riding, -1.5 , if(is_ridden, left_leg.rx+(left_wing.rz * 0.7),left_leg.rx))",
+					"a_legR.rx": "if(is_riding, -1.5 , if(is_ridden, right_leg.rx+(right_wing.rz * 0.7),right_leg.rx))",
+					"b_legL.rx": "if(is_riding, -1.5 , if(is_ridden, left_leg.rx+(left_wing.rz * 0.7), left_leg.rx *0.5))",
+					"b_legR.rx": "if(is_riding, -1.5 , if(is_ridden, right_leg.rx+(right_wing.rz * 0.7), right_leg.rx *0.5))"
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "bill",
+			"id": "bill",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "chin",
+			"id": "chin",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

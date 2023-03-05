@@ -1,0 +1,163 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -11, 0],
+			"submodels": [
+				{
+					"id": "waist",
+					"invertAxis": "xy",
+					"translate": [0, 8, 0],
+					"submodels": [
+						{
+							"id": "Head1",
+							"invertAxis": "xy",
+							"translate": [0, 6, 0],
+							"boxes": [
+								{"coordinates": [-3.5, 0, -3, 7, 7, 6], "textureOffset": [0, 0]},
+								{"coordinates": [-4, -1, -3.5, 8, 8, 7], "textureOffset": [0, 13]},
+								{"coordinates": [-3.5, 7, -3, 7, 1, 6], "textureOffset": [0, 28]},
+								{"coordinates": [-4, 7, -3.5, 8, 2, 7], "textureOffset": [30, 13]}
+							]
+						},
+						{
+							"id": "Body1",
+							"invertAxis": "xy",
+							"translate": [0, 6, 0],
+							"boxes": [
+								{"coordinates": [-2.5, -5, -1.5, 5, 5, 3], "textureOffset": [26, 28]}
+							],
+							"submodels": [
+								{
+									"id": "RightArm",
+									"invertAxis": "xy",
+									"translate": [2.5, -1, 0],
+									"boxes": [
+										{"coordinates": [0, -5, -1, 2, 6, 2], "textureOffset": [32, 0]}
+									]
+								},
+								{
+									"id": "LeftArm",
+									"invertAxis": "xy",
+									"translate": [-2.5, -1, 0],
+									"boxes": [
+										{"coordinates": [-2, -5, -1, 2, 6, 2], "textureOffset": [40, 0]}
+									]
+								},
+								{
+									"id": "Skirt1",
+									"invertAxis": "xy",
+									"translate": [0, -3, 0],
+									"boxes": [
+										{"coordinates": [-3.5, -3, -2, 7, 3, 4], "textureOffset": [0, 35]}
+									],
+									"submodels": [
+										{
+											"id": "Skirt2",
+											"invertAxis": "xy",
+											"translate": [0, -2, 0],
+											"boxes": [
+												{"coordinates": [-4, -3, -2.5, 8, 3, 5], "textureOffset": [0, 42]}
+											],
+											"submodels": [
+												{
+													"id": "RightLeg",
+													"invertAxis": "xy",
+													"translate": [1.5, 0, 0],
+													"boxes": [
+														{"coordinates": [-1, -5, -1, 2, 5, 2], "textureOffset": [56, 0]}
+													]
+												},
+												{
+													"id": "LeftLeg",
+													"invertAxis": "xy",
+													"translate": [-1.5, 0, 0],
+													"boxes": [
+														{"coordinates": [-1, -5, -1, 2, 5, 2], "textureOffset": [48, 0]}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "TailFin",
+									"invertAxis": "xy",
+									"translate": [0, -3, 2],
+									"boxes": [
+										{"coordinates": [0, -3, 0, 0, 5, 4], "textureOffset": [48, 4]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"waist.ty": "if(is_in_water, clamp(20*limb_speed, 0, 5)-13, -5)",
+
+					"waist.ry": "if(is_in_water, 0 , 1.6 )",
+					"Head1.rx": "(sin(time / 11) * 0.025)",
+					"Head1.ry": "clamp(head_yaw*0.01, -1, 1)",
+
+					"TailFin.rx": "-Body1.rx",
+					"TailFin.ry": "tail.ry",
+
+                                        "Body1.rx": "if(is_in_water, clamp(1*limb_speed, 0, 0.2), 0)",
+
+					"Skirt1.rx": "if(is_in_water, clamp(1*limb_speed, 0, 0.2) +0.1, (sin(time / 0.5) * 0.1))",
+					"Skirt2.rx": "if(is_in_water, Skirt1.rx , 0)",
+
+					"LeftLeg.rx": "if(is_in_water, (sin(time / 10) * 0.15)+0.13, (sin(time / 0.6) * 0.2))",
+					"RightLeg.rx": "if(is_in_water, (sin((time - 7) / 10) * 0.15)+0.13, -(sin(time / 0.6) * 0.2))",
+
+					"RightArm.rx": "if(is_in_water, clamp(1*limb_speed, 0, 0.4), 0)",
+					"RightArm.rz": "if(is_in_water, clamp(1*limb_speed, 0, 0.4), (sin(time / 1) * 0.3) +0.2) +(sin(time / 10) * 0.05) +0.08",
+
+					"LeftArm.rx": "RightArm.rx",
+					"LeftArm.rz": "-RightArm.rz"
+				}
+			]
+		},
+		{
+			"part": "fin_back",
+			"id": "fin_back",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "fin_right",
+			"id": "fin_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "fin_left",
+			"id": "fin_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

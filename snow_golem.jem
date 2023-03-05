@@ -1,0 +1,149 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -11, 0]
+		},
+		{
+			"part": "body_bottom",
+			"id": "body_bottom",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "body_bottom2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "body2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-3.5, 12, -2, 7, 3, 4], "textureOffset": [42, 37]}
+							]
+						},
+						{
+							"id": "body_bottom1",
+							"invertAxis": "xy",
+							"translate": [0, 12, 0],
+							"boxes": [
+								{"coordinates": [-4.5, -9, -3, 9, 5, 6], "textureOffset": [34, 53]},
+								{"coordinates": [-4, -4, -2.5, 8, 4, 5], "textureOffset": [38, 44]}
+							]
+						},
+						{
+							"id": "body1",
+							"invertAxis": "xy",
+							"translate": [0, 20, 0],
+							"submodels": [
+								{
+									"id": "led1",
+									"invertAxis": "xy",
+									"translate": [0, -19, 0],
+									"submodels": [
+										{
+											"id": "left_hand2",
+											"invertAxis": "xy",
+											"translate": [-3.5, 23, 0],
+											"boxes": [
+												{"coordinates": [-2, -12, -1, 2, 12, 2], "textureOffset": [44, 0], "sizeAdd": 0.01},
+												{"coordinates": [-2.5, -11, -1.5, 3, 7, 3], "textureOffset": [30, 24], "sizeAdd": 0.01}
+											]
+										},
+										{
+											"id": "right_hand2",
+											"invertAxis": "xy",
+											"translate": [3.5, 23, 0],
+											"boxes": [
+												{"coordinates": [0, -12, -1, 2, 12, 2], "textureOffset": [36, 0], "sizeAdd": 0.01},
+												{"coordinates": [-0.5, -11, -1.5, 3, 7, 3], "textureOffset": [30, 14], "sizeAdd": 0.01}
+											]
+										}
+									]
+								}
+							],
+							"boxes": [
+								{"coordinates": [-3.5, -2, -1.5, 7, 6, 3], "textureOffset": [0, 46]},
+								{"coordinates": [-3.5, 3, -2.5, 7, 1, 5], "textureOffset": [0, 40], "sizeAdd": 0.01},
+								{"coordinates": [-3, -8, -1.5, 6, 6, 3], "textureOffset": [0, 55]}
+							]
+						},
+						{
+							"id": "Right_leg",
+							"invertAxis": "xy",
+							"translate": [2, 12, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -12, -1.5, 3, 12, 3], "textureOffset": [52, 15], "sizeAdd": -0.01}
+							]
+						},
+						{
+							"id": "Left_leg",
+							"invertAxis": "xy",
+							"translate": [-2, 12, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -12, -1.5, 3, 12, 3], "textureOffset": [52, 0], "sizeAdd": -0.01}
+							]
+						},
+						{
+							"id": "head1",
+							"invertAxis": "xy",
+							"translate": [0, 24, 0],
+							"boxes": [
+								{"coordinates": [-3.5, 0, -3, 7, 6, 6], "textureOffset": [0, 0]},
+								{"coordinates": [-4, -2, -3.5, 8, 9, 7], "textureOffset": [0, 12]},
+								{"coordinates": [-4, 7, -3.5, 8, 5, 7], "textureOffset": [0, 28]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+				"head1.rx": "(sin(time / 10) * 0.025) + head.rx",
+				"head1.ry": "head.ry",
+				"head1.rz": "head.rz",
+				"head.ty": "1000000",
+				
+				"body1.ry": "if(is_riding, 0 , head.ry * 0.2)",
+				"body1.rz": "if(is_riding, 0 , head.rz * 0.2)",
+				
+				"body_bottom2.ty": "if(is_riding, 5, 0)",
+				"body_bottom1.rx": "if(is_riding, -1.4,0)",
+
+                                "right_hand2.rx": "sin(limb_swing)*limb_speed",
+				"left_hand2.rx" : "-right_hand2.rx",
+				
+				"Left_leg.rx": "if(is_riding, -1.4, right_hand2.rx * 0.45)",
+				"Right_leg.rx": "if(is_riding, -1.4, left_hand2.rx * 0.45)",
+				
+				"right_hand2.rz" : "(sin(time / 10) * 0.05)+(0.12)",
+				"left_hand2.rz" : "-right_hand2.rz"
+				}
+			]
+		},
+		{
+			"part": "left_hand",
+			"id": "left_hand",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"rotate": [0, 0, -50]
+		},
+		{
+			"part": "right_hand",
+			"id": "right_hand",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"rotate": [0, 0, -50]
+		}
+	]
+}

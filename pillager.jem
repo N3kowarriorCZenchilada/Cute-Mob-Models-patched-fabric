@@ -1,0 +1,212 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -0.75, 0],
+			"submodels": [
+				{
+					"id": "adult",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "a_body",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-1, 22, -1, 2, 2, 2], "textureOffset": [0, 52]},
+								{"coordinates": [-3.5, 17, -1.5, 7, 5, 3], "textureOffset": [0, 56]},
+								{"coordinates": [-3, 11, -1.5, 6, 6, 3], "textureOffset": [20, 55], "sizeAdd": 0.001}
+							],
+							"submodels": [
+								{
+									"id": "a_bust",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"submodels": [
+										{
+											"id": "upper",
+											"invertAxis": "xy",
+											"translate": [0, -3.3, -2.5],
+											"rotate": [37.2, 0, 0],
+											"boxes": [
+												{"coordinates": [-3, 18.32019, -13.90578, 6, 2, 2], "textureOffset": [0, 40]}
+											]
+										},
+										{
+											"id": "middle",
+											"invertAxis": "xy",
+											"translate": [0, -3.3, -2.5],
+											"boxes": [
+												{"coordinates": [-3, 21, 0, 6, 2, 2], "textureOffset": [0, 44], "sizeAdd": 0.001}
+											]
+										},
+										{
+											"id": "lower",
+											"invertAxis": "xy",
+											"translate": [0, -5.3, -2.5],
+											"rotate": [-55, 0, 0],
+											"boxes": [
+												{"coordinates": [-3, 11.19226, 18.8405, 6, 2, 2], "textureOffset": [0, 48]}
+											]
+										}
+									]
+								},
+								{
+									"id": "a_head",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{"coordinates": [-3.5, 23, -3, 7, 7, 6], "textureOffset": [0, 0]},
+										{"coordinates": [-4, 20, -3.5, 8, 10, 7], "textureOffset": [0, 13], "sizeAdd": -0.01},
+										{"coordinates": [-3.5, 30, -3, 7, 1, 6], "textureOffset": [0, 30]}
+									],
+									"submodels": [
+										{
+											"id": "a_hair",
+											"invertAxis": "xy",
+											"translate": [0, 0.5, 3],
+											"boxes": [
+												{"coordinates": [-4, 17, -0.5, 8, 6, 1], "textureOffset": [16, 37], "sizeAdd": -0.001},
+												{"coordinates": [-4, 11, -0.5, 8, 6, 1], "textureOffset": [16, 44], "sizeAdd": -0.001}
+											]
+										},
+										{
+											"id": "a_hairM",
+											"invertAxis": "xy",
+											"translate": [0, 4, 4],
+											"boxes": [
+												{"coordinates": [-1, 16, -1, 2, 8, 2], "textureOffset": [36, 14], "sizeAdd": 0.001},
+												{"coordinates": [-0.5, 13, -0.5, 1, 2, 1], "textureOffset": [36, 26], "sizeAdd": 0.15},
+												{"coordinates": [-0.5, 15, -0.5, 1, 1, 1], "textureOffset": [36, 24]}
+											]
+										},
+										{
+											"id": "h",
+											"invertAxis": "xy",
+											"translate": [1, 7.5, 1],
+											"rotate": [5, 0, -10],
+											"boxes": [
+												{"coordinates": [-7.49391, 22.56439, -5.47413, 7, 2, 7], "textureOffset": [36, 43]},
+												{"coordinates": [-4.49391, 24.06439, -2.47413, 1, 1, 1], "textureOffset": [43, 41]}
+											]
+										}
+									]
+								},
+								{
+									"id": "a_armR",
+									"invertAxis": "xy",
+									"translate": [3.5, -2, 0],
+									"boxes": [
+										{"coordinates": [0, 12, -1, 2, 12, 2], "textureOffset": [36, 0]}
+									]
+								},
+								{
+									"id": "a_armL",
+									"invertAxis": "xy",
+									"translate": [-3.5, -2, 0],
+									"boxes": [
+										{"coordinates": [-2, 12, -1, 2, 12, 2], "textureOffset": [44, 0]}
+									]
+								},
+								{
+									"id": "a_bodywear_skirt",
+									"invertAxis": "xy",
+									"translate": [0, -9, 0],
+									"boxes": [
+										{"coordinates": [-4, 16.5, -2.5, 8, 6, 5], "textureOffset": [38, 53], "sizeAdd": -0.4}
+									]
+								}
+							]
+						},
+						{
+							"id": "a_legR",
+							"invertAxis": "xy",
+							"translate": [1.5, -12, 0],
+							"boxes": [
+								{"coordinates": [-1.5, 11.5, -1.5, 3, 12, 3], "textureOffset": [52, 0], "sizeAdd": -0.25}
+							]
+						},
+						{
+							"id": "a_legL",
+							"invertAxis": "xy",
+							"translate": [-1.5, -12, 0],
+							"boxes": [
+								{"coordinates": [-1.5, 11.5, -1.5, 3, 12, 3], "textureOffset": [52, 15], "sizeAdd": -0.25}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"adult.ty": "if(is_riding, -2 , 0)",
+					"a_body.ry": "if(is_riding, 0 ,head.ry * 0.3)",
+					"a_head.rx": "(sin(time / 10) * 0.025) + head.rx",
+					"a_head.rz": "head.rz",
+					"a_head.ry": "head.ry",
+					"right_arm.tx": "-3.5",
+					"right_arm.ty": "if(is_riding, 1.8, 3.9)",
+					"right_arm.tz": "0.5",
+					"left_arm.tx": "-right_arm.tx",
+					"left_arm.ty": "right_arm.ty",
+					"left_arm.tz": "right_arm.tz",
+					"a_armL.rx": "left_arm.rx",
+					"a_armL.ry": "left_arm.ry",
+					"a_armR.rx": "right_arm.rx",
+					"a_armR.ry": "right_arm.ry",
+					"a_legL.rx": "left_leg.rx",
+					"a_legR.rx": "right_leg.rx",
+					"a_hair.rx": "0.5*limb_speed +(-(sin(time / 12) * 0.02) + 0.05) -head.rx",
+					"a_hairM.rx": "if(head.rx>0, -head.rx*0.5, -head.rx) +0.4*limb_speed +(-(sin(time / 12) * 0.02) + 0.1)"
+				}
+			]
+		},
+		{
+			"part": "arms",
+			"id": "arms",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}
