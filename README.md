@@ -26,32 +26,32 @@ not supported = Isn't supported by texture pack //12
 >Pig - weird animations  
 >Zombie - weird animations 
 >Bat - no animations 
->Axolotl - borked  
+>Axolotl - borked  - unsuported by cem
 >Allay - not supported 
 >Bee - fully working 
 >Blaze - fully working 
 >Cat - Part of tail is missing 
 >Cave spider - weird animation 
->Cod - borked  
->Dolphin - borked  
->Donkey - borked 
+>Cod - borked  - unsuported by cem
+>Dolphin - borked  - unsuported by cem
+>Donkey - borked - unsuported by cem
 >Drowned - weird animations  
 >Elder Guardian - fully working  
 >Guardian - weird animations 
->Endermite - borked  
+>Endermite - borked  - unsuported by cem
 >Enderman - weird animations 
 >Horse - fully working   
 >Evoker - weird animations 
 >Fox - cannot edit 
 >Frog - not supported  
 >Ghast - model need fixing 
->Glow squid - borked 
->Goat - borked 
+>Glow squid - borked - unsuported by cem
+>Goat - borked - unsuported by cem
 >Hoglin - not supported  
 >Parrot - not supported  
->Panda -borked 
->Mule -borked  
->Llama - borked  
+>Panda -borked - unsuported by cem
+>Mule -borked - unsuported by cem 
+>Llama - borked  - unsuported by cem
 >Husk - weird animations 
 >Polar bear - not supported  
 >Ocelot - weird animations 
@@ -70,7 +70,7 @@ not supported = Isn't supported by texture pack //12
 >Shulker - borked  
 >Salmon - not supported  
 >Puffer fish - not supported 
->Ravager - borked  
+>Ravager - borked  - unsuported by cem
 >Skeleton - weird animations 
 >Spider - fully working  
 >Squid - borked  
