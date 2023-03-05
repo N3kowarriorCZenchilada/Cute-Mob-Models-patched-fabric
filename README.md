@@ -40,7 +40,7 @@ Elder Guardian - fully working
 Guardian - weird animations 
 Endermite - borked  
 Enderman - weird animations 
-Horse - fully working 
+Horse - fully working   
 Evoker - weird animations 
 Fox - cannot edit 
 Frog - not supported  
