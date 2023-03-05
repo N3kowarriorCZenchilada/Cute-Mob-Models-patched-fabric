@@ -6,7 +6,8 @@ Required mods to function:
 --------------------------------------------------------
 ANIMATICA, ENTITY TEXTURE FEATURES, CUSTOM ENTITY MODEL, CLOTH CONFIG API, COMPLETE CONFIG,
 FABRIC LOADER, FABRIC API
-Mobs:
+
+Issues with mobs:
 --------------------------------------------------------
 Cow - weird animations
 Sheep - weird animations
