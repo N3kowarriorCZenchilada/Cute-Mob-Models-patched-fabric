@@ -7,7 +7,7 @@ Required mods to function:
 ANIMATICA, ENTITY TEXTURE FEATURES, CUSTOM ENTITY MODEL, CLOTH CONFIG API, COMPLETE CONFIG,
 FABRIC LOADER, FABRIC API
 
-Mob compability: (weird animations )
+Mob compability:
 --------------------------------------------------------
 fully working = animations and textures and model are working properly
 Weird animations = model and textures are working
