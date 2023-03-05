@@ -6,6 +6,12 @@ Required mods to function:
 --------------------------------------------------------
 ANIMATICA, ENTITY TEXTURE FEATURES, CUSTOM ENTITY MODEL, CLOTH CONFIG API, COMPLETE CONFIG,
 FABRIC LOADER, FABRIC API
+Mobs:
+--------------------------------------------------------
+Cow - weird animations
+Sheep - weird animations
+Creeper - fully working
+Chicken - sometimes doesnt load texture
 
 Links:
 --------------------------------------------------------
