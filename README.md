@@ -10,9 +10,13 @@ FABRIC LOADER, FABRIC API
 Mob compability:
 --------------------------------------------------------
 fully working = animations and textures and model are working properly
+
 Weird animations = model and textures are working
+
 borked = model or/and textures are completely broken
+
 cannot edit = file is corrupted or if changed breaks model/textures
+
 not supported = Isn't supported by texture pack
 
 Cow - weird animations
