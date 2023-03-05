@@ -1,0 +1,55 @@
+{
+	"textureSize": [384, 384],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [3.3, 16, -4.3, 2, 2, 6], "textureOffset": [272, 368], "sizeAdd": 0.25},
+				{"coordinates": [-5.3, 16, -4.3, 2, 2, 6], "textureOffset": [272, 376], "sizeAdd": 0.25},
+				{"coordinates": [-7, 14, -6, 14, 2, 12], "textureOffset": [220, 370]},
+				{"coordinates": [-7, 0, -6, 14, 14, 12], "textureOffset": [108, 358]},
+				{"coordinates": [-8, -2, -7, 16, 16, 14], "textureOffset": [160, 354]},
+				{"coordinates": [-8, -24, 5, 16, 24, 2], "textureOffset": [240, 344], "sizeAdd": -0.002}
+			],
+			"submodels": [
+				{
+					"id": "eye_right",
+					"invertAxis": "xy",
+					"translate": [8, 12.3, -5.3],
+					"rotate": [0, -2.5, 2.5],
+					"boxes": [
+						{"coordinates": [-6, -4, -2, 6, 4, 2], "textureOffset": [224, 348]},
+						{"coordinates": [-6, -2, -2, 2, 2, 2], "textureOffset": [224, 364]}
+					]
+				},
+				{
+					"id": "eye_left",
+					"invertAxis": "xy",
+					"translate": [-8, 12.3, -5.3],
+					"rotate": [0, 2.5, -2.5],
+					"boxes": [
+						{"coordinates": [0, -4, -2, 6, 4, 2], "textureOffset": [224, 354]},
+						{"coordinates": [4, -2, -2, 2, 2, 2], "textureOffset": [224, 360]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head.sx": "2",
+					"head.sy": "head.sx",
+					"head.sz": "head.sx",
+					"head.ty": "8"
+				}
+			]
+		},
+		{
+			"part": "jaw",
+			"id": "jaw",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		}
+	]
+}
