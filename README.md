@@ -1,6 +1,6 @@
 Instalation:
 --------------------------------------------------------
-Download as zip and place into your resourcepack folder.
+Download release and place in resourcepack folder.
 
 Required mods to function:
 --------------------------------------------------------
