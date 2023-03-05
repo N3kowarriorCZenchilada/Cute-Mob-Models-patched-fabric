@@ -19,9 +19,9 @@ cannot edit = file is corrupted or if changed breaks model/textures
 
 not supported = Isn't supported by texture pack
 
-Cow - weird animations
-Sheep - weird animations
-Creeper - fully working
+Cow - weird animations  
+Sheep - weird animations  
+Creeper - fully working 
 Chicken - sometimes doesn't load texture
 Pig - weird animations
 Zombie - weird animations
