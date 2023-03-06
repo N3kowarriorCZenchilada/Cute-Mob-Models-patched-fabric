@@ -15,7 +15,7 @@ FABRIC LOADER, FABRIC API
 
 Mob compability:
 --------------------------------------------------------
-Fully working = animations and textures and model are working properly //9
+Fully working = animations and textures and model are working properly
 
 Weird animations = model and textures are working (gonna be fixed in future)
 
