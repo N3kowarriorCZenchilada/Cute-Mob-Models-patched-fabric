@@ -75,7 +75,7 @@ Not supported = Isn't supported by texture pack
 >Magma cube - C 
 >Pillager - W
 >Piglin brute - W
->Snow golem - borked   
+>Snow golem - B  
 >Slime - C
 >Horse skeleton - F
 >Silver fish - B
