@@ -10,8 +10,14 @@ Download release and place in resourcepack folder.
 
 Required mods to function:
 --------------------------------------------------------
-ANIMATICA, ENTITY TEXTURE FEATURES, CUSTOM ENTITY MODEL, CLOTH CONFIG API, COMPLETE CONFIG,
-FABRIC LOADER, FABRIC API
+> ANIMATICA 
+> ENTITY 
+> TEXTURE FEATURES
+> CUSTOM ENTITY MODEL
+> CLOTH CONFIG API
+> COMPLETE CONFIG
+> FABRIC LOADER
+> FABRIC API
 
 Mob compability:
 --------------------------------------------------------
@@ -25,21 +31,21 @@ Cannot edit = file is corrupted or if changed breaks model/textures (may need to
 
 Not supported = Isn't supported by texture pack 
 
->Cow - W  
->Sheep - W  
->Creeper - F
->Chicken - W  
->Pig - W 
->Zombie - W
->Bat - W 
->Axolotl - B - unsuported by cem
->Allay - N
->Bee - F 
->Blaze - F 
->Cat - F - Part of tail is missing 
->Cave spider - W
->Cod -  B - unsuported by cem
->Dolphin - B  - unsuported by cem
+> Cow - W  
+> Sheep - W  
+> Creeper - F
+> Chicken - W  
+> Pig - W 
+> Zombie - W
+> Bat - W 
+> Axolotl - B - unsuported by cem
+> Allay - N
+> Bee - F 
+> Blaze - F 
+> Cat - F - Part of tail is missing 
+> Cave spider - W
+> Cod -  B - unsuported by cem
+> Dolphin - B  - unsuported by cem
 >Donkey - B - unsuported by cem
 >Drowned - W  
 >Elder Guardian - F - model need fixing
@@ -86,22 +92,22 @@ Not supported = Isn't supported by texture pack
 >Tadpole fish - N 
 >Tropical fish - N
 >Turlte - N  
->Vex - B
->Villager - W 
->Vindicator - W
->Wandering trader - C
->Warden - N 
->Wither skeleton - W
->Witch - W  
->Wolf - W
->Zoglin - N
->Zombie - W
->Stray - W
->Fox - C
->Zombie - W
->Zombie horse - F
->Zombie villager - W   
->Zombified piglin - W
+> Vex - B
+> Villager - W 
+> Vindicator - W
+> Wandering trader - C
+> Warden - N 
+> Wither skeleton - W
+> Witch - W  
+> Wolf - W
+> Zoglin - N
+> Zombie - W
+> Stray - W
+> Fox - C
+> Zombie - W
+> Zombie horse - F
+> Zombie villager - W   
+> Zombified piglin - W
 
 Links:
 --------------------------------------------------------
