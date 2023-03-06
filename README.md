@@ -2,7 +2,7 @@ About:
 -------------------------------------------------------
 This is unofficial atempt to support fabric without need for optifabric,
 based on CMMRP+Release+1.0+-+[1.19+-+1.19.1].
-Tested and working with 1.19.3.
+Tested and working with 1.19.3 and 1.19.1.
 
 Instalation:
 --------------------------------------------------------
