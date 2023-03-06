@@ -15,93 +15,93 @@ FABRIC LOADER, FABRIC API
 
 Mob compability:
 --------------------------------------------------------
-fully working = animations and textures and model are working properly //9
+Fully working = animations and textures and model are working properly //9
 
 Weird animations = model and textures are working //27 (gonna be fixed in future)
 
-borked = model or/and textures are completely broken //18 (mostly resault of not being supported by cem)
+Borked = model or/and textures are completely broken //18 (mostly resault of not being supported by cem)
 
-cannot edit = file is corrupted or if changed breaks model/textures //7 (may need to redo whole file from scratch)
+Cannot edit = file is corrupted or if changed breaks model/textures //7 (may need to redo whole file from scratch)
 
-not supported = Isn't supported by texture pack //12 
+Not supported = Isn't supported by texture pack //12 
 
->Cow - weird animations  
->Sheep - weird animations  
->Creeper - fully working 
->Chicken - sometimes doesn't load texture  
->Pig - weird animations  
->Zombie - weird animations 
->Bat - no animations 
->Axolotl - borked  - unsuported by cem
->Allay - not supported 
->Bee - fully working 
->Blaze - fully working 
->Cat - Part of tail is missing 
->Cave spider - weird animation 
->Cod - borked  - unsuported by cem
->Dolphin - borked  - unsuported by cem
->Donkey - borked - unsuported by cem
->Drowned - weird animations  
->Elder Guardian - fully working  
->Guardian - weird animations 
->Endermite - borked  - unsuported by cem
->Enderman - weird animations 
->Horse - fully working   
->Evoker - weird animations 
->Fox - cannot edit 
->Frog - not supported  
->Ghast - model need fixing 
->Glow squid - borked - unsuported by cem
->Goat - borked - unsuported by cem
->Hoglin - not supported  
->Parrot - not supported  
->Panda -borked - unsuported by cem
->Mule -borked - unsuported by cem 
->Llama - borked  - unsuported by cem
->Husk - weird animations 
->Polar bear - not supported  
->Ocelot - weird animations 
->Iron golem - cannot edit  
->Rabbit - cannot edit  
->Piglin - weird animations + glitched armor  
->Zombified piglin - weird animations 
+>Cow - W  
+>Sheep - W  
+>Creeper - F
+>Chicken - W  
+>Pig - W 
+>Zombie - W
+>Bat - W 
+>Axolotl - B - unsuported by cem
+>Allay - N
+>Bee - F 
+>Blaze - F 
+>Cat - F - Part of tail is missing 
+>Cave spider - W
+>Cod -  B - unsuported by cem
+>Dolphin - B  - unsuported by cem
+>Donkey - B - unsuported by cem
+>Drowned - W  
+>Elder Guardian - F - model need fixing
+>Guardian - W
+>Endermite -  B - unsuported by cem
+>Enderman - W
+>Horse - F  
+>Evoker - W
+>Fox - C
+>Frog - N 
+>Ghast -F - model need fixing 
+>Glow squid - B - unsuported by cem
+>Goat - B - unsuported by cem
+>Hoglin - N
+>Parrot - N 
+>Panda - B - unsuported by cem
+>Mule - B - unsuported by cem 
+>Llama -  B - unsuported by cem
+>Husk - W
+>Polar bear - N
+>Ocelot - W
+>Iron golem - C 
+>Rabbit - C
+>Piglin - W + glitched armor  
+>Zombified piglin - W
 >Phantom - fully working 
->Magma cube - cannot edit  
->Pillager - weird animations 
->Piglin brute - weird animations 
+>Magma cube - C 
+>Pillager - W
+>Piglin brute - W
 >Snow golem - borked   
->Slime - cannot edit 
->Horse skeleton - fully working  
->Silver fish - borked  
->Shulker - borked  
->Salmon - not supported  
->Puffer fish - not supported 
->Ravager - borked  - unsuported by cem
->Skeleton - weird animations 
->Spider - fully working  
->Squid - borked  
->Stray - weird animations  
->Strider - borked  
->Trader lama - borked  
->Tadpole fish - not supported  
->Tropical fish - not supported 
->Turlte - not supported  
->Vex - borked  
->Villager - weird animations 
->Vindicator - weird animations 
->Wandering trader - cannot edit  
->Warden - not supported  
->Wither skeleton - weird animations  
->Witch - weird animations  
->Wolf - weird animations 
->Zoglin - not supported  
->Zombie - weird animations 
->Stray - weird animations  
->Fox - cannot edit 
->Zombie - weird animations 
->Zombie horse - fully working  
->Zombie villager - weird animations    
->Zombified piglin - weird animations 
+>Slime - C
+>Horse skeleton - F
+>Silver fish - B
+>Shulker - B  
+>Salmon - N 
+>Puffer fish - N
+>Ravager - B - unsuported by cem
+>Skeleton - W
+>Spider - F 
+>Squid - B
+>Stray - W
+>Strider - B
+>Trader lama - B
+>Tadpole fish - N 
+>Tropical fish - N
+>Turlte - N  
+>Vex - B
+>Villager - W 
+>Vindicator - W
+>Wandering trader - C
+>Warden - N 
+>Wither skeleton - W
+>Witch - W  
+>Wolf - W
+>Zoglin - N
+>Zombie - W
+>Stray - W
+>Fox - C
+>Zombie - W
+>Zombie horse - F
+>Zombie villager - W   
+>Zombified piglin - W
 
 Links:
 --------------------------------------------------------
