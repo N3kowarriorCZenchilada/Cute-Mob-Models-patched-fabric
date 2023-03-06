@@ -11,13 +11,13 @@ Mob compability:
 --------------------------------------------------------
 fully working = animations and textures and model are working properly //9
 
-Weird animations = model and textures are working //27
+Weird animations = model and textures are working //27 (gonna be fixed in future)
 
-borked = model or/and textures are completely broken //18
+borked = model or/and textures are completely broken //18 (mostly resault of not being supported by cem)
 
-cannot edit = file is corrupted or if changed breaks model/textures //7
+cannot edit = file is corrupted or if changed breaks model/textures //7 (may need to redo whole file from scratch)
 
-not supported = Isn't supported by texture pack //12
+not supported = Isn't supported by texture pack //12 
 
 >Cow - weird animations  
 >Sheep - weird animations  
