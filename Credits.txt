@@ -1,0 +1,86 @@
+--== Cute Mob Models Credits ==--
+
+Created by: =[ _jx ]=
+
+Remaked by: =[ yarrmateys ]=
+・Yarr Cute Mob Models - Remake 
+・https://www.curseforge.com/minecraft/mc-mods/yarr-cute-mob-models-remake
+
+Character Designed by: =[ AT2 ]= The Creator of Mob Talker and Artist of mob girls design.
+・Deviantart: -- https://www.deviantart.com/at-2 --
+・Twitter: -- https://twitter.com/aptx9522 or @aptx9522 --
+
+Ported to Java Edition Resourcepack by: =[ Emmie_4 ]=
+
+Ported to Bedrock Edition Addon by : =[ LugiaGamer572 ]=
+
+
+
+--== Resource Pack Developers ==--
+
+ ==[ Emmie_4 ]== Cute Mob Models Resource Pack Porter/Developer and CEMs, Animations, Textures, Designs, Models.
+・Twitter: -- https://twitter.com/Nattapong_Taree --
+
+
+ ==[ Minedoll ]== Cute Mob Models Resource Pack Porter/Developer and CEMs, Animations, Textures, Designs, Models.
+・Twitter: -- https://twitter.com/Minedollcat --
+
+
+ ==[ LugiaGamer572 ]== Cute Mob Models Bedrock Edition Addon Porter/Developer and Textures, Designs, Models.
+・Twitter: -- https://twitter.com/C0me_Bucket --
+・Youtube: -- https://www.youtube.com/channel/UCKMynmk62GzKHRSfJ0fD8RA --
+
+
+ ==[ Shirotamaya_64 ]== CEMs, Textures, Designs and Models.
+・Twitter: -- https://twitter.com/Shirotamaya_64 --
+・Pixiv: -- https://www.pixiv.net/users/62360092 --
+
+ ==[ Coffee ]== Texture and Model.
+・Twitter: -- https://twitter.com/MomoiroKohi4 --
+・Youtube: -- https://www.youtube.com/channel/UC7AUDzYNv_DNgGPdHGJc5Fg --
+
+
+ ==[ Kyubi (Former) ]== Textures, Designs and Models.
+
+
+
+--== Artists ==--
+
+- [ AT2 ]
+・Deviantart: -- https://www.deviantart.com/at-2 --
+・Twitter: -- https://twitter.com/aptx9522 or @aptx9522 --
+
+- [ Shirotamaya_64 ]
+
+- [ Mechanical Rabbit ]
+・Deviantart: -- https://www.deviantart.com/mechanicrabbit --
+・Twitter: -- https://twitter.com/Mechanic_Rabbit --
+
+- [ QcoolcaN ]
+・Deviantart: -- https://www.deviantart.com/okamisanz --
+・Twitter: -- https://twitter.com/QcoolcaN --
+
+- [ 姨媽麵湯 / yimamiantang ]
+・Pixiv: -- https://www.pixiv.net/users/20236223 --
+・Twitter: -- https://twitter.com/yimamiantang --
+
+- [ Kayasa ]
+・Twitter: -- https://twitter.com/TheKayasaYT --
+
+- [ EzPinZee ]
+
+- [ RandomRaven ]
+・Twitter: -- https://twitter.com/randomravenart --
+
+
+
+--== Special Thanks ==--
+
+- [ cmdrmcnuggets ]: Loading Screen
+・His Resource Pack - Player Mob Models: -- https://www.curseforge.com/minecraft/texture-packs/player-mob-models --
+
+- [ gorienchis ]: Animation Help
+・Twitter -- https://twitter.com/gorienchis --
+・Youtube -- https://www.youtube.com/channel/UCtd3j6s16UIVoZfDhOijr_Q --
+
+=== Thank you so much!! ===
