@@ -6,7 +6,8 @@ Tested and working with 1.19.3 and 1.19.1.
 
 Instalation:
 --------------------------------------------------------
-Download release and place in resourcepack folder.
+Download all mods via curseforge and put them into .minecraft/mods, then
+download lastest release of resource pack and place it in .minecraft/resourcepacks.
 
 Required mods to function:
 --------------------------------------------------------
@@ -18,6 +19,13 @@ Required mods to function:
 > COMPLETE CONFIG
 > FABRIC LOADER
 > FABRIC API
+
+Known Issues:
+----------------------------------------------------------------
+>Weird animations //Bee, Horse, Creeper, Guardian excluded
+>Iron golem's and slime's and guard's (elder included) model being unnderground
+>Enderdragon weird texture
+>Mob heads missing textures
 
 Mob compability:
 --------------------------------------------------------
@@ -33,7 +41,7 @@ Not supported = Isn't supported by texture pack
 
 > Cow - W  
 > Sheep - W  
-> Creeper - F
+> Creeper - W
 > Chicken - W  
 > Pig - W 
 > Zombie - W
@@ -46,52 +54,52 @@ Not supported = Isn't supported by texture pack
 > Cave spider - W
 > Cod -  B - unsuported by cem
 > Dolphin - B  - unsuported by cem
->Donkey - B - unsuported by cem
->Drowned - W  
->Elder Guardian - F - model need fixing
->Guardian - W
->Endermite -  B - unsuported by cem
->Enderman - W
->Horse - F  
->Evoker - W
->Fox - C
->Frog - N 
->Ghast -F - model need fixing 
->Glow squid - B - unsuported by cem
->Goat - B - unsuported by cem
->Hoglin - N
->Parrot - N 
->Panda - B - unsuported by cem
->Mule - B - unsuported by cem 
->Llama -  B - unsuported by cem
->Husk - W
->Polar bear - N
->Ocelot - W
->Iron golem - C 
->Rabbit - C
->Piglin - W + glitched armor  
->Zombified piglin - W
->Phantom - fully working 
->Magma cube - C 
->Pillager - W
->Piglin brute - W
->Snow golem - B  
->Slime - C
->Horse skeleton - F
->Silver fish - B
->Shulker - B  
->Salmon - N 
->Puffer fish - N
->Ravager - B - unsuported by cem
->Skeleton - W
->Spider - F 
->Squid - B
->Stray - W
->Strider - B
->Trader lama - B
->Tadpole fish - N 
->Tropical fish - N
->Turlte - N  
+> Donkey - B - unsuported by cem
+> Drowned - W  
+> Elder Guardian - F 
+> Guardian - W
+> Endermite -  B - unsuported by cem
+> Enderman - W
+> Horse - F  
+> Evoker - W
+> Fox - C
+> Frog - N 
+> Ghast -F - model need fixing 
+> Glow squid - B - unsuported by cem
+> Goat - B - unsuported by cem
+> Hoglin - N
+> Parrot - N 
+> Panda - B - unsuported by cem
+> Mule - B - unsuported by cem 
+> Llama -  B - unsuported by cem
+> Husk - W
+> Polar bear - N
+> Ocelot - W
+> Iron golem - C 
+> Rabbit - C
+> Piglin - W + glitched armor  
+> Zombified piglin - W
+> Phantom - fully working 
+> Magma cube - C 
+> Pillager - W
+> Piglin brute - W
+> Snow golem - B  
+> Slime - C
+> Horse skeleton - F
+> Silver fish - B
+> Shulker - B  
+> Salmon - N 
+> Puffer fish - N
+> Ravager - B - unsuported by cem
+> Skeleton - W
+> Spider - F 
+> Squid - B
+> Stray - W
+> Strider - B
+> Trader lama - B
+> Tadpole fish - N 
+> Tropical fish - N
+> Turlte - N  
 > Vex - B
 > Villager - W 
 > Vindicator - W
@@ -111,13 +119,12 @@ Not supported = Isn't supported by texture pack
 
 Links:
 --------------------------------------------------------
-https://www.curseforge.com/minecraft/mc-mods/animatica/files
-https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric
-https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem
-https://www.curseforge.com/minecraft/mc-mods/cloth-config
-https://www.curseforge.com/minecraft/mc-mods/completeconfig
-https://fabricmc.net/use/installer/
-https://www.curseforge.com/minecraft/mc-mods/fabric-api
+>https://www.curseforge.com/minecraft/mc-mods/animatica/files
+>https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric
+>https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem
+>https://www.curseforge.com/minecraft/mc-mods/cloth-config
+>https://www.curseforge.com/minecraft/mc-mods/completeconfig
+>https://www.curseforge.com/minecraft/mc-mods/fabric-api
 
 All rights and credit reserved to original creator:
 ------------------------------------------------------
