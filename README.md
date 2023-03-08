@@ -30,7 +30,9 @@ Known Issues:
 Mob compability:
 --------------------------------------------------------
 Fully working: Villager, Ghast, Creeper, Horse(all), Wandering Trader, Vindicator, Witch(little weird attack animation), Wolf
-Bugged Animation: Wither skeleton
+
+Bugged Animation: Wither skeleton, zombie
+
 Other mobs are still in work for update V.0.0.0.5
 
 Links:
