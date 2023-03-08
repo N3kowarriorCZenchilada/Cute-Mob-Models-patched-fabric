@@ -64,7 +64,7 @@ Not supported = Isn't supported by texture pack
 > Evoker - W
 > Fox - C
 > Frog - N 
-> Ghast -F - model need fixing 
+> Ghast -F
 > Glow squid - B - unsuported by cem
 > Goat - B - unsuported by cem
 > Hoglin - N
@@ -101,7 +101,7 @@ Not supported = Isn't supported by texture pack
 > Tropical fish - N
 > Turlte - N  
 > Vex - B
-> Villager - W 
+> Villager - F
 > Vindicator - W
 > Wandering trader - C
 > Warden - N 
